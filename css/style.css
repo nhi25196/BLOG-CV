@@ -1,0 +1,66 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto&display=swap'); */
+
+* {
+    font-family: 'fantasy';
+    /* font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif */
+}
+
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* -------------------------------------preloader */
+
+body.preloader-active {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    overflow: hidden;
+    filter: alpha(opacity=40);
+}
+
+.preloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 9999999999;
+}
+
+.loader {
+    background: url(https://envato.themeasia.net/habiba/habiba-all-damo/habiba-demo-1/img/preloader.gif) no-repeat center center;
+    width: 100px;
+    height: 100px;
+    left: 48%;
+    top: 20%;
+    /* margin-bottom: 50px;
+    margin-right: 50px; */
+    position: absolute;
+}
+
+
+/* ------------------ */
+
+.animated {
+    animation-delay: 1s;
+}
+
+.tab-content .animated {
+    animation-delay: inherit;
+}
+
+
+/* ------------------ */

@@ -1,0 +1,224 @@
+.section-padding {
+    padding: 90px 0;
+}
+
+.color_1 {
+    background: #ffe55b52
+}
+
+.color_2 {
+    background: white
+}
+
+
+/* ------------------------------------------------- */
+
+.section_title {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* ------------------------------------------------- */
+
+.about-me .title_h2,
+.document .title_h2,
+.project-images .title_h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.about-me .title_h2::before,
+.document .title_h2::before,
+.project-images .title_h2::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 16px;
+    left: 25px;
+    background-color: #ffc107;
+    transform: rotate(45deg);
+}
+
+.about-me .title_h2::after,
+.document .title_h2::after,
+.project-images .title_h2::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 16px;
+    right: 25px;
+    background-color: #ffc107;
+    transform: rotate(45deg);
+}
+
+
+/* ------------------------------------------------- */
+
+.section-padding .tab-menu {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    border-bottom: none;
+}
+
+.section-padding .tab-menu li a {
+    color: black;
+    padding: 12px 22px;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: #ffc107;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 7px 0px;
+    /* width: 180px; */
+    margin: 2px;
+    text-align: center;
+}
+
+.section-padding .tab-menu li a:hover,
+.section-padding .tab-menu li a:active,
+.section-padding .tab-menu li a:focus {
+    text-decoration: none;
+    background-color: #ffe55b52!important;
+    color: black!important;
+}
+
+.section-padding .tab-menu li .active {
+    text-decoration: none;
+    background-color: #ffe55b52!important;
+    color: black!important;
+}
+
+
+/* ------------------------------------------------- */
+
+
+/* .section-padding .tab-menu li:first-child a {
+    border-right: 0 none;
+}
+
+.section-padding .tab-menu li:last-child a {
+    border-left: 0 none;
+} */
+
+
+/* ------------------------------------------------- */
+
+.about-me .nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+}
+
+.about-me .title_h3 {
+    font-size: 30px;
+    /* font-weight: bold; */
+    /* font-family: cursive; */
+    /* padding: 15px; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-me .tab_content .tab_content_right .img img {
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.about-me .tab_content,
+#project-images .tab_content {
+    margin-top: 60px;
+    /* display: none; */
+}
+
+
+/* ------------------------------------------------- */
+
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    height: 12px;
+    overflow: hidden;
+    /* font-size: .75rem; */
+    background-color: black;
+    border-radius: 20px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgb(0 0 0 / 15%) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+
+.progress-bar {
+    color: black;
+    background-color: #ffc107;
+}
+
+.skill_title {
+    padding: 5px
+}
+
+
+/* ------------------------------------------------- */
+
+
+/*  skill bar tham khao
+.skillbar {
+    width: 100%;
+    height: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #363636;
+}
+
+
+.count {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #fdfdfd;
+    font-size: 9px;
+}
+.skillbar .count-bar {
+    width: 100%;
+    height: 6px;
+    width: 0px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #FE763A;
+} */
+
+
+/* ------------------------------------------------- */
+
+.modal-backdrop {
+    position: inherit;
+}
+
+.modal {
+    background: #000000ba;
+}
