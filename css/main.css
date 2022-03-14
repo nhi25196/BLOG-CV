@@ -7,7 +7,7 @@
 }
 
 .color_2 {
-    background: white
+    background: #bb8c2594
 }
 
 
@@ -28,7 +28,7 @@
 .project-images .title_h2 {
     font-size: 35px;
     font-weight: bold;
-    font-family: cursive;
+    /* font-family: cursive; */
     padding: 15px;
     position: relative;
     text-transform: uppercase;
@@ -221,4 +221,51 @@
 
 .modal {
     background: #000000ba;
+}
+
+
+/*ZoomIn Hover Effect*/
+
+.hover-zoomin .figure {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-zoomin .figure a {
+    display: block;
+    margin: 20px 0px;
+    color: black
+}
+
+.hover-zoomin .figure a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:991px) {
+    .tab_content {
+        text-align: center;
+    }
+    .figure img {
+        width: 70%;
+    }
 }

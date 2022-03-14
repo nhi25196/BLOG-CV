@@ -49,7 +49,7 @@ $(window).on('load', function() {
         $('.preloader').fadeOut();
         $('.loader').delay().fadeOut();
         $('body').removeClass('preloader-active');
-    }, 1000);
+    }, 300);
 
 });
 

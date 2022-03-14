@@ -4,7 +4,7 @@ header {
 
 .header {
     color: #eff3f6;
-    background: rgba(0, 0, 0, 0) url('../imgs/header-bg2.jpeg') no-repeat;
+    background: rgba(0, 0, 0, 0) url('../imgs/header-bg3.jpeg') no-repeat;
     position: relative;
     z-index: 1;
     background-size: cover;
@@ -137,6 +137,7 @@ header {
 .header_bottom_content a {
     border: 1px solid #ffffff;
     color: #ffffff;
+    font-weight: bold;
     display: inline-block;
     margin: 0 12px;
     overflow: hidden;
@@ -247,7 +248,7 @@ header {
     .header_bottom_content {
         position: inherit;
     }
-    .header_bottom_content p{
+    .header_bottom_content p {
         display: none;
     }
 }
