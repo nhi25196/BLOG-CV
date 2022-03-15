@@ -3,7 +3,8 @@
 }
 
 .color_1 {
-    background: #ffe55b52
+    background: #ffe55b52;
+    border-bottom: 0.5px solid #ffc107;
 }
 
 .color_2 {
