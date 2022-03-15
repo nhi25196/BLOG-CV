@@ -251,6 +251,7 @@ header {
     }
     .header_bottom_content {
         position: inherit;
+        padding-top: 60px;
     }
     .header_bottom_content p {
         display: none;
