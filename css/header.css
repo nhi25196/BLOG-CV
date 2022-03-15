@@ -2,6 +2,10 @@ header {
     height: 100%;
 }
 
+.header_Top {
+    background: #4b3f14ba;
+}
+
 .header {
     color: #eff3f6;
     background: rgba(0, 0, 0, 0) url('../imgs/header-bg3.jpeg') no-repeat;
