@@ -7,7 +7,9 @@
 }
 
 .color_2 {
-    background: white;
+    /* background: white; */
+    background: #ffe55b52;
+    border-bottom: 0.5px solid #ffc107;
 }
 
 
